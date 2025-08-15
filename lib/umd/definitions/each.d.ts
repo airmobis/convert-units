@@ -4,3 +4,4 @@ export type EachSystems = 'metric';
 export type EachMetricUnits = 'ea' | 'dz';
 declare const measure: Measure<EachSystems, EachUnits>;
 export default measure;
+//# sourceMappingURL=each.d.ts.map

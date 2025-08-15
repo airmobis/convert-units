@@ -4,3 +4,4 @@ export type ApparentPowerSystems = 'SI';
 export type ApparentPowerMetricUnits = 'VA' | 'mVA' | 'kVA' | 'MVA' | 'GVA';
 declare const measure: Measure<ApparentPowerSystems, ApparentPowerUnits>;
 export default measure;
+//# sourceMappingURL=apparentPower.d.ts.map

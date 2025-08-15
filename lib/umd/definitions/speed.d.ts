@@ -5,3 +5,4 @@ export type SpeedMetricUnits = 'm/s' | 'km/h' | 'mm/h';
 export type SpeedImperialUnits = 'mph' | 'knot' | 'ft/s' | 'ft/min' | 'in/h';
 declare const measure: Measure<SpeedSystems, SpeedUnits>;
 export default measure;
+//# sourceMappingURL=speed.d.ts.map

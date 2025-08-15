@@ -5,3 +5,4 @@ export type AreaMetricUnits = 'nm2' | 'μm2' | 'mm2' | 'cm2' | 'dm2' | 'm2' | 'a
 export type AreaImperialUnits = 'in2' | 'yd2' | 'ft2' | 'ac' | 'mi2';
 declare const measure: Measure<AreaSystems, AreaUnits>;
 export default measure;
+//# sourceMappingURL=area.d.ts.map

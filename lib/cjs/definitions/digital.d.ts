@@ -7,3 +7,4 @@ export type DigitalIECBitUnits = 'Kib' | 'Mib' | 'Gib' | 'Tib';
 export type DigitalIECByteUnits = 'KiB' | 'MiB' | 'GiB' | 'TiB';
 declare const measure: Measure<DigitalSystems, DigitalUnits>;
 export default measure;
+//# sourceMappingURL=digital.d.ts.map

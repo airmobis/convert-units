@@ -5,3 +5,4 @@ export type VolumeFlowRateMetricUnits = 'mm3/s' | 'cm3/s' | 'dm3/s' | 'dm3/min' 
 export type VolumeFlowRateImperialUnits = 'tsp/s' | 'Tbs/s' | 'in3/s' | 'in3/min' | 'in3/h' | 'fl-oz/s' | 'fl-oz/min' | 'fl-oz/h' | 'cup/s' | 'pnt/s' | 'pnt/min' | 'pnt/h' | 'qt/s' | 'gal/s' | 'gal/min' | 'gal/h' | 'ft3/s' | 'ft3/min' | 'ft3/h' | 'yd3/s' | 'yd3/min' | 'yd3/h';
 declare const measure: Measure<VolumeFlowRateSystems, VolumeFlowRateUnits>;
 export default measure;
+//# sourceMappingURL=volumeFlowRate.d.ts.map

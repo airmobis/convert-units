@@ -34,3 +34,4 @@ export type AllMeasuresUnits = AccelerationUnits | AngleUnits | ApparentPowerUni
 export type AllMeasures = 'acceleration' | 'angle' | 'apparentPower' | 'area' | 'charge' | 'current' | 'digital' | 'each' | 'energy' | 'force' | 'frequency' | 'illuminance' | 'length' | 'mass' | 'massFlowRate' | 'pace' | 'partsPer' | 'pieces' | 'power' | 'pressure' | 'reactiveEnergy' | 'reactivePower' | 'speed' | 'torque' | 'temperature' | 'time' | 'voltage' | 'volume' | 'volumeFlowRate' | 'electricCharge';
 declare const allMeasures: Record<AllMeasures, Measure<AllMeasuresSystems, AllMeasuresUnits>>;
 export default allMeasures;
+//# sourceMappingURL=all.d.ts.map

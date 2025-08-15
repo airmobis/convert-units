@@ -5,3 +5,4 @@ export type VolumeMetricUnits = 'mm3' | 'cm3' | 'dm3' | 'ml' | 'l' | 'kl' | 'Ml'
 export type VolumeImperialUnits = 'tsp' | 'Tbs' | 'in3' | 'fl-oz' | 'cup' | 'pnt' | 'qt' | 'gal' | 'ft3' | 'yd3';
 declare const measure: Measure<VolumeSystems, VolumeUnits>;
 export default measure;
+//# sourceMappingURL=volume.d.ts.map

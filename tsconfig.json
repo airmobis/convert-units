@@ -14,7 +14,10 @@
     "typeRoots": [
       "node_modules/@types"
     ],
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "declarationMap": true,
+    "emitDeclarationOnly": false,
+    "rootDir": "src"
   },
   "include": [
     "./src/**/*"

@@ -4,3 +4,4 @@ export type VoltageSystems = 'SI';
 export type VoltageSIUnits = 'V' | 'μV' | 'mV' | 'kV' | 'MV';
 declare const measure: Measure<VoltageSystems, VoltageUnits>;
 export default measure;
+//# sourceMappingURL=voltage.d.ts.map

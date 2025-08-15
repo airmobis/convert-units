@@ -134,3 +134,4 @@ export declare function buildUnitCache<TMeasures extends string, TSystems extend
 declare function configureMeasurements<TMeasures extends string, TSystems extends string, TUnits extends string>(measures: Record<TMeasures, Measure<TSystems, TUnits>>): (value?: number) => Converter<TMeasures, TSystems, TUnits, number>;
 declare function configureMeasurements<TMeasures extends string, TSystems extends string, TUnits extends string, TValue>(measures: Record<TMeasures, Measure<TSystems, TUnits>>, cls: Wrapper<TValue>): (value?: number) => Converter<TMeasures, TSystems, TUnits, TValue>;
 export { configureMeasurements };
+//# sourceMappingURL=convert.d.ts.map

@@ -5,3 +5,4 @@ export type MassFlowRateMetricUnits = 'kg/s' | 'kg/min' | 'kg/h' | 'mt/h';
 export type MassFlowRateImperialUnits = 'lb/s' | 'lb/h';
 declare const measure: Measure<MassFlowRateSystems, MassFlowRateUnits>;
 export default measure;
+//# sourceMappingURL=massFlowRate.d.ts.map

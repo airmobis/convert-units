@@ -4,3 +4,4 @@ export type AngleSystems = 'SI';
 export type AngleSIUnits = 'rad' | 'deg' | 'grad' | 'arcmin' | 'arcsec';
 declare const measure: Measure<AngleSystems, AngleUnits>;
 export default measure;
+//# sourceMappingURL=angle.d.ts.map

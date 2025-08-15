@@ -5,3 +5,4 @@ export type IlluminanceMetricUnits = 'lx';
 export type IlluminanceImperialUnits = 'ft-cd';
 declare const measure: Measure<IlluminanceSystems, IlluminanceUnits>;
 export default measure;
+//# sourceMappingURL=illuminance.d.ts.map

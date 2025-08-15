@@ -4,3 +4,4 @@ export type ForceSystems = 'SI';
 export type ForceSIUnits = 'N' | 'kN' | 'lbf' | 'kgf';
 declare const measure: Measure<ForceSystems, ForceUnits>;
 export default measure;
+//# sourceMappingURL=force.d.ts.map

@@ -5,3 +5,4 @@ export type MassMetricUnits = 'mcg' | 'mg' | 'g' | 'kg' | 'mt';
 export type MassImperialUnits = 'oz' | 'lb' | 'st' | 't';
 declare const measure: Measure<MassSystems, MassUnits>;
 export default measure;
+//# sourceMappingURL=mass.d.ts.map

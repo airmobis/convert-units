@@ -5,3 +5,4 @@ export type EnergySIUnits = 'Ws' | 'Wm' | 'Wh' | 'mWh' | 'kWh' | 'MWh' | 'GWh' |
 export type EnergyNutritionUnits = 'kcal' | 'cal';
 declare const measure: Measure<EnergySystems, EnergyUnits>;
 export default measure;
+//# sourceMappingURL=energy.d.ts.map

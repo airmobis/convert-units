@@ -4,3 +4,4 @@ export type ElectricChargeSystems = 'SI';
 export type ElectricChargeSIUnits = 'Ah' | 'mAh';
 declare const measure: Measure<ElectricChargeSystems, ElectricChargeUnits>;
 export default measure;
+//# sourceMappingURL=electricCharge.d.ts.map

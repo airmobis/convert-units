@@ -5,3 +5,4 @@ export type PressureMetricUnits = 'Pa' | 'kPa' | 'MPa' | 'hPa' | 'mbar' | 'bar' 
 export type PressureImperialUnits = 'psi' | 'ksi' | 'inHg';
 declare const measure: Measure<PressureSystems, PressureUnits>;
 export default measure;
+//# sourceMappingURL=pressure.d.ts.map

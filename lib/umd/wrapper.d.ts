@@ -12,3 +12,4 @@ export interface Wrapper<T> {
 export declare function isWrapper<T>(wrapper: unknown): wrapper is Wrapper<T>;
 export declare class NotAValidNumber extends Error {
 }
+//# sourceMappingURL=wrapper.d.ts.map
