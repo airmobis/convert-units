@@ -18,6 +18,10 @@ import charge, { ChargeSystems, ChargeUnits } from '../definitions/charge';
 import current, { CurrentSystems, CurrentUnits } from '../definitions/current';
 import digital, { DigitalSystems, DigitalUnits } from '../definitions/digital';
 import each, { EachSystems, EachUnits } from '../definitions/each';
+import electricCharge, {
+  ElectricChargeSystems,
+  ElectricChargeUnits,
+} from '../definitions/electricCharge';
 import energy, { EnergySystems, EnergyUnits } from '../definitions/energy';
 import force, { ForceSystems, ForceUnits } from '../definitions/force';
 import frequency, {
@@ -915,6 +919,8 @@ test('all possibilities', () => {
       'sm-gr',
       'st',
       'trio',
+      'Ah',
+      'mAh',
     ];
   expect(actual.sort()).toEqual(expected.sort());
 });
@@ -939,5 +945,18 @@ test('pieces possibilities', () => {
       'sm-gr',
       'trio',
     ];
+  expect(actual.sort()).toEqual(expected.sort());
+});
+
+test('electricCharge possibilities', () => {
+  const convert = configureMeasurements<
+    'electricCharge',
+    ElectricChargeSystems,
+    ElectricChargeUnits
+  >({
+    electricCharge,
+  });
+  const actual = convert().possibilities('electricCharge'),
+    expected = ['Ah', 'mAh'];
   expect(actual.sort()).toEqual(expected.sort());
 });
