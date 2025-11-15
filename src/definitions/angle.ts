@@ -2,7 +2,13 @@ import { Measure, Unit } from './../index.js';
 export type AngleUnits = AngleSIUnits;
 export type AngleSystems = 'SI';
 
-export type AngleSIUnits = 'rad' | 'deg' | 'grad' | 'arcmin' | 'arcsec';
+export type AngleSIUnits =
+  | 'rad'
+  | 'deg'
+  | 'grad'
+  | 'arcmin'
+  | 'arcsec'
+  | 'slope';
 
 const SI: Record<AngleSIUnits, Unit> = {
   rad: {
@@ -51,6 +57,14 @@ const SI: Record<AngleSIUnits, Unit> = {
       numerator: 1,
       denominator: 3600,
     },
+  },
+  slope: {
+    name: {
+      singular: '%',
+      plural: '%',
+    },
+    // Slope = tan(PI * deg / 180) * 100
+    to_anchor: Math.atan(1 / 100) * (180 / Math.PI),
   },
 };
 

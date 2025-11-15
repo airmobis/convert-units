@@ -98,3 +98,15 @@ test('arcmin to rad', () => {
   });
   expect(convert(10000).from('arcmin').to('rad')).toBeCloseTo(2.908882);
 });
+test('deg to slope', () => {
+  const convert = configureMeasurements<'angle', AngleSystems, AngleUnits>({
+    angle,
+  });
+  expect(convert(1).from('deg').to('slope')).toBeCloseTo(1.745);
+});
+test('slope to deg', () => {
+  const convert = configureMeasurements<'angle', AngleSystems, AngleUnits>({
+    angle,
+  });
+  expect(convert(18).from('slope').to('deg')).toBeCloseTo(10.31);
+});

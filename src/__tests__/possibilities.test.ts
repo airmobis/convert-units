@@ -599,7 +599,7 @@ test('angle possibilities', () => {
     angle,
   });
   const actual = convert().possibilities('angle'),
-    expected = ['rad', 'deg', 'grad', 'arcmin', 'arcsec'];
+    expected = ['rad', 'deg', 'grad', 'arcmin', 'arcsec', 'slope'];
   expect(actual.sort()).toEqual(expected.sort());
 });
 
@@ -921,6 +921,7 @@ test('all possibilities', () => {
       'trio',
       'Ah',
       'mAh',
+      'slope',
     ];
   expect(actual.sort()).toEqual(expected.sort());
 });
